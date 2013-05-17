@@ -21,20 +21,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/htc/fireball/proprietary/bin/akmd:system/bin/akmd \
 	vendor/htc/fireball/proprietary/bin/bma150_usr:system/bin/bma150_usr \
-	vendor/htc/fireball/proprietary/lib/libchromatix_s5k3h2yx_default_video.so:system/lib/libchromatix_s5k3h2yx_default_video.so \
-	vendor/htc/fireball/proprietary/lib/libchromatix_s5k3h2yx_hdr.so:system/lib/libchromatix_s5k3h2yx_hdr.so \
-	vendor/htc/fireball/proprietary/lib/libchromatix_s5k3h2yx_hfr.so:system/lib/libchromatix_s5k3h2yx_hfr.so \
-	vendor/htc/fireball/proprietary/lib/libchromatix_s5k3h2yx_preview.so:system/lib/libchromatix_s5k3h2yx_preview.so \
-	vendor/htc/fireball/proprietary/lib/libchromatix_s5k3h2yx_zsl.so:system/lib/libchromatix_s5k3h2yx_zsl.so \
-	vendor/htc/fireball/proprietary/lib/libchromatix_s5k6a1gx_default_video.so:system/lib/libchromatix_s5k6a1gx_default_video.so \
-	vendor/htc/fireball/proprietary/lib/libchromatix_s5k6a1gx_preview.so:system/lib/libchromatix_s5k6a1gx_preview.so \
-	vendor/htc/fireball/proprietary/lib/libchromatix_s5k6a1gx_zsl.so:system/lib/libchromatix_s5k6a1gx_zsl.so \
 	vendor/htc/fireball/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
 	vendor/htc/fireball/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
 	vendor/htc/fireball/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
 	vendor/htc/fireball/proprietary/etc/agps_rm:system/etc/agps_rm \
 	vendor/htc/fireball/proprietary/bin/charging:system/bin/charging \
-	vendor/htc/fireball/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	vendor/htc/fireball/proprietary/bin/mpdecision:system/bin/mpdecision \
 	vendor/htc/fireball/proprietary/bin/netmgrd:system/bin/netmgrd \
 	vendor/htc/fireball/proprietary/bin/netsharing:system/bin/netsharing \
@@ -44,45 +35,7 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/fireball/proprietary/bin/zchgd:system/bin/zchgd \
 	vendor/htc/fireball/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
 	vendor/htc/fireball/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-	vendor/htc/fireball/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
-	vendor/htc/fireball/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
-	vendor/htc/fireball/proprietary/lib/libcam_oem_plugin.so:system/lib/libcam_oem_plugin.so \
-	vendor/htc/fireball/proprietary/lib/libDxOAF.so:system/lib/libDxOAF.so \
-	vendor/htc/fireball/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-	vendor/htc/fireball/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
-	vendor/htc/fireball/proprietary/lib/libmmcamera_rawchipproc.so:system/lib/libmmcamera_rawchipproc.so \
-	vendor/htc/fireball/proprietary/lib/libmmcamera_statsproc30.so:system/lib/libmmcamera_statsproc30.so \
-	vendor/htc/fireball/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-	vendor/htc/fireball/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-	vendor/htc/fireball/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-	vendor/htc/fireball/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
-	vendor/htc/fireball/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
 	vendor/htc/fireball/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-	vendor/htc/fireball/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-	vendor/htc/fireball/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-	vendor/htc/fireball/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-	vendor/htc/fireball/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-	vendor/htc/fireball/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-	vendor/htc/fireball/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-	vendor/htc/fireball/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
-	vendor/htc/fireball/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-	vendor/htc/fireball/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
-	vendor/htc/fireball/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-	vendor/htc/fireball/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
-	vendor/htc/fireball/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-	vendor/htc/fireball/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-	vendor/htc/fireball/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-	vendor/htc/fireball/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-	vendor/htc/fireball/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-	vendor/htc/fireball/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-	vendor/htc/fireball/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-	vendor/htc/fireball/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-	vendor/htc/fireball/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-	vendor/htc/fireball/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-	vendor/htc/fireball/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-	vendor/htc/fireball/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
-	vendor/htc/fireball/proprietary/lib/libwvm.so:system/lib/libwvm.so \
-	vendor/htc/fireball/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
 	vendor/htc/fireball/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
 	vendor/htc/fireball/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
 	vendor/htc/fireball/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
